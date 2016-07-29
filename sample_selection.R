@@ -4,7 +4,6 @@ library(sampleSelection)#Sample Selection Models in R
 
 #the outcome y is observe only if d is equal to one with d a binary variable which is correlated with the error term of y.
 
-
 N <- 1000
 u <- rnorm(N)
 v <- rnorm(N)
